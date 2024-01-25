@@ -32,7 +32,7 @@ def calculate_matrix_product(X, W):
           Also, it allows us to use the same function for a single neuron or multiple neurons.
          
     """
-     res = torch.matmul(X, W.T)  # TODO: implement this function 
+    res = torch.matmul(X, W.T)  # TODO: implement this function 
     return res
 
 def calculate_matrix_prod_with_bias(X, W, b):
@@ -45,7 +45,7 @@ def calculate_matrix_prod_with_bias(X, W, b):
           This allows us to use a batch of inputs, and not just a single input.
           Also, it allows us to use the same function for a single neuron or multiple neurons.
        """
-     res = torch.matmul(X, W.T) + b  # TODO: implement this function 
+    res = torch.matmul(X, W.T) + b  # TODO: implement this function 
     return res
 
 def calculate_activation(sum_total):
